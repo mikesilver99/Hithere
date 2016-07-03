@@ -11,6 +11,8 @@ namespace Hithere
         static void Main(string[] args)
         {
             Console.WriteLine("Hi from the master branch.");
+
+            Console.WriteLine("This is a change I made in branch1.");
         }
     }
 }
