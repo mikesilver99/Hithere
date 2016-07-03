@@ -12,6 +12,9 @@ namespace Hithere
         {
             Console.WriteLine("Hi from the master branch.");
             Console.WriteLine("Second commit change here!");
+
+            double y = 1.65;
+            Console.WriteLine(y * 8);
         }
     }
 }
