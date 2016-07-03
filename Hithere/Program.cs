@@ -10,11 +10,16 @@ namespace Hithere
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hi from the master branch.");
-            Console.WriteLine("Second commit change here!");
+            foo();
+        }
 
-            double y = 1.65;
-            Console.WriteLine(y * 8);
+        static void foo()
+        {
+            Console.WriteLine("Hi from the master branch.");
+
+            Console.WriteLine("This is a change I made in branch1.");
+            int z = 56;
+            int y = z + 1;
         }
     }
 }
